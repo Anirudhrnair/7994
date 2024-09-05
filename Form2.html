@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+</head>
+<center>
+<body>
+    <b>
+    <form action="action.php" method="post">
+        <fieldset>
+            <legend>REGISTRATION FORM</legend>
+        <label>First Name: </label>
+        <input type="text" name="FirstName" placeholder="Enter your First Name" required><br><br>
+        <label>Your Address: </label>
+        <textarea name="Your Address" rows="2" cols="40" placeholder="Enter Your Address" required>
+</textarea><br><br>
+<label>Contact Number: </label>
+<input type="number" name="number" placeholder="Enter Your Mobile Number"><br><br>
+<label>Enter DOB: </label>
+<input type="date" name="date" placeholder="Enter Your DOB" required><br><br>
+<label>Select Your Gender: </label><br>
+<input type="radio" id="Male" name="Gender" value="Male" required>Male
+<input type="radio" id="Female" name="Gender" value="Female" required>Female<br><br>
+<label>Educational Qualification: </label>
+<input type="checkbox" id="12th" name="EQ" value="12th">12th
+<input type="checkbox" id="12th" name="EQ" value="12th">Graduation<br><br>
+<label>Select Your Course: </label>
+<select name="dropdownlist">
+    <option value="html">HTML</option>
+    <option value="CSS">CSS</option>
+    <option value="PYTHON">PHYTHON</option>
+    <option value="JAVASCRIPT">JAVASCRIPT</option>
+    <option value="NODE.JS">NODE JS</option>
+</select><br><br>
+<label>Enter Your Email: </label>
+<input type="email" name="email" placeholder="Enter Your Email Address"><br><br>
+<label>Enter Your Password: </label>
+<input type="password" name="password" placeholder="Enter Your Password" required><br><br>
+<labe>Attach document:</label>
+<input type="file" name="file" placeholder="Upload Here" required><br><br>
+<label>Click Here to Submit:</label>
+<button type="submit"><b>Submit</b></button><br><br>
+<label>Click Here To Reset:</label>
+<button type="reset"><b>Reset</b></button><br><br>
+<button type="button"><b>Button Only</b></button><br><br>
+<label>Button Through Input :-</label>
+<br><br><input type="submit" value="CLICK ME">
+        </fieldset>
+    </form>
+    </b>
+</body>
+</center>
+</html>
